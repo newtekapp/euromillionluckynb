@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EuroMillions Lucky Number Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="icons/logo.png" alt="Logo">
+      <h3>Generate Your Lucky EuroMillions Numbers!</h3>
+    </header>
+    <p>With this generator, you can create your lucky EuroMillions numbers based on the most frequently drawn numbers. There are a total of <strong>2,520</strong> possible combinations using our algorithm. Increase your odds from 1 in 139,838,160 to 1 in 55,479 with our lucky number generator!</p>
+    <p>Data is based on EuroMillions draws since <strong>2004</strong>.</p>
+    <button id="generateButton"><img src="icons/dice.png" alt="Generate"> Generate Numbers</button>
+    <div id="numbers" class="numbers"></div>
+    <div id="extraContent" class="extra-content">
+      <p>Your lucky numbers have been generated!</p>
+      <span id="copyMessage">Copy numbers to clipboard <img src="icons/copy.png" alt="Copy"></span>
+      <p>This application is 100% free. Your donation would be greatly appreciated!</p>
+      <div class="donate-container">
+        <div class="donate-item">
+          <a href="https://www.buymeacoffee.com/luckyeurom" target="_blank">
+            <img class="button" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=luckyeurom&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" alt="Buy me a coffee">
+          </a>
+        </div>
+        <div class="donate-item">
+          <img class="qr-code" src="images/bmc.png" alt="QR Code for Buy Me a Coffee">
+        </div>
+      </div>
+    </div>
+    <div class="icons">
+      <img src="icons/facebook.png" alt="Share on Facebook" id="facebookButton">
+      <img src="icons/x.png" alt="Share on X" id="twitterButton">
+      <img src="icons/share.png" alt="Share" id="shareButton">
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
